@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Responsive Website</title>
+</head>
+<body>
+    <div id="main-wrapper">
+        
+        <div id="top-section">
+            <header id="hero">
+                <h1>Terry's Taco Joint</h1>
+                <p>Pretty Good Tacos!</p>
+            </header>
+            <div class="price-item" id="price-item1">
+                <p class="price">$1.99</p>
+                <p>Tacos</p>
+            </div>
+            <div class="price-item" id="price-item2">
+                <p class="price">$3.99</p>
+                <p>Kombucha</p>
+            </div>
+        </div>
+
+        <nav id="menu">
+            <button aria-expanded="false" aria-controls="menu-wrapper" id="menu-toggle-button">
+                <span id="open-button">☰</span>
+                <span id="close-button">×</span>
+                Menu
+            </button>
+            <ul id="menu-wrapper">
+                <li class="menu-item">
+                    <a href="">Tacos</a>
+                </li>
+                <li class="menu-item">
+                    <a href="">Beers</a>
+                </li>
+                <li class="menu-item">
+                    <a href="">Wines</a>
+                </li>
+                <li class="menu-item">
+                    <a href="">Desserts</a>
+                </li>
+                <li class="menu-item">
+                    <a href="">Reservations</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div id="features">
+            <div class="feature">
+                <div class="heading">
+                    <span class="icon">🌮</span>
+                    <h3>Tacos</h3>
+                </div>
+                <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
+            </div>
+            <div class="feature">
+                <div class="heading">
+                    <span class="icon">🍺</span>
+                    <h3>Beer</h3>
+                </div>
+                <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
+            </div>
+            <div class="feature">
+                <div class="heading">
+                    <span class="icon">🍷</span>
+                    <h3>Wine</h3>
+                </div>
+                <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
+            </div>
+            <div class="feature">
+                <div class="heading">
+                    <span class="icon">🎵</span>
+                    <h3>Music</h3>
+                </div>
+                <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
+            </div>
+        </div>
+
+
+        <div id="featured">
+            <img src="images/queso-taco.png" alt="Featured Taco">
+            <div class="featured-text">
+                <h2>Featured Taco</h2>
+                <p>Slim Profile, easy to hold and loaded with cheese.</p>
+                <p>This is the one you have been waiting for</p>
+                <button>Learn More →</button>
+            </div>
+        </div>
+
+        <div id="gallery">
+            <header id="gallery-header">
+                <div class="gallery-border border-left"></div>
+                <h2>Instant Grams</h2>
+                <div class="gallery-border border-right"></div>
+            </header>
+
+            <div id="gallery-container">
+                <img src="https://source.unsplash.com/random/201x201" alt="">
+                <img src="https://source.unsplash.com/random/202x202" alt="">
+                <img src="https://source.unsplash.com/random/203x203" alt="">
+                <img src="https://source.unsplash.com/random/204x204" alt="">
+                <img src="https://source.unsplash.com/random/205x205" alt="">
+                <img src="https://source.unsplash.com/random/206x206" alt="">
+                <img src="https://source.unsplash.com/random/207x207" alt="">
+                <img src="https://source.unsplash.com/random/207x208" alt="">
+                <img src="https://source.unsplash.com/random/207x209" alt="">
+                <img src="https://source.unsplash.com/random/207x210" alt="">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
